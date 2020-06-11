@@ -12,7 +12,7 @@ from tango.server import Device, attribute, command
 import AM2315 as am_driver
 
 
-class TempHumid(Device):
+class AM2315TempHumid(Device):
 
     temperature = attribute(name='Temperature',access=AttrWriteType.READ,
                             dtype=float,fget='get_temperature',format='.2f',
@@ -59,4 +59,4 @@ class TempHumid(Device):
     def read_state(self):
         return self.state()
 if __name__ == "__main__":
-    TempHumid.run_server()
+    AM2315TempHumid.run_server()
