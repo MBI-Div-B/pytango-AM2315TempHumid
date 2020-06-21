@@ -1,4 +1,4 @@
-# pytango-AM2315TempHumid
+# PyTango Device Server AM2315
 Content: <a href="#install_driver">Installing AM2315 driver</a>, <a href="#register_TDS">Registering TangoDS</a>, <a href="#connect_db">Connecting Databases</a>, <a href="#write_TDS">Writing TangoDS</a>, <a href="#run_TDS">Running TangoDS</a>.
 
 This repository holds a Tango Device Server for the <a href = "https://www.adafruit.com/products/1293">AM2315 temperature and humidity sensor</a> and a quick tutorial on how it was written and what will be needed to get the Server running. I am working on a Raspberry Pi 4 with PyTango 9.2.5 (without database) but this tutorial should work with any hardware supporting an i2c bus. How to hook up the AM2315 to a Rapsi or another Arduino is shown <a href="https://cdn-learn.adafruit.com/downloads/pdf/am2315-encased-i2c-temperature-humidity-sensor.pdf?timestamp=1588759334">here</a>.  
